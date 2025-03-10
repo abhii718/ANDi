@@ -61,13 +61,13 @@ body {
     height: 4rem;
     border-radius: 50%;
     cursor: pointer;
-    margin-right: 7rem;
+    margin-right: 17rem;
 }
 
 .nav-links {
     /* margin-right: 2rem; */
     display: flex;
-    gap: 1.5rem;
+    gap: 1.0rem;
     align-items: center;
     /* margin-right:10px ; */
 }
@@ -175,7 +175,7 @@ h2 {
 }
 
 /* Responsive Design */
-@media (max-width: 905px) {
+@media (max-width: 943px) {
 
     .nav-container {
         padding: 0 1rem;
