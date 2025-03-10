@@ -1,3 +1,1 @@
-#This page is made using HTML , Css , and Javascript
-
-###(Tap to se)[https://abhii718.github.io/ANDi/]
+### [This page is made using HTML, CSS, and JavaScript (Tap to see)](https://abhii718.github.io/ANDi/)
