@@ -254,3 +254,27 @@ h2 {
     opacity: 0.8;
     font-size: 0.9rem;
 }
+
+.core-values.grid {
+    padding: 2rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+}
+
+.products-grid {
+    padding: 2rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+}
+
+.software-grid {
+    padding: 2rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+}
+
+.contact-info {
+    padding: 2rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+}

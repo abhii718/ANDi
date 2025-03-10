@@ -1,7 +1,8 @@
 /* About Us Section */
 .about-us {
     padding: 4rem 2rem;
-    background: var(--bg-secondary);
+
+    /* background: var(--bg-secondary); */
 }
 
 .section-header {
@@ -18,7 +19,8 @@
     color: transparent;
 }
 
-.tagline {
+
+*/ .tagline {
     font-size: 1.2rem;
     color: var(--text-primary);
     opacity: 0.9;
@@ -38,30 +40,17 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.point-card {
-    background: var(--nav-bg);
-    padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.point-card:hover {
-    transform: translateY(-5px);
-}
-
-.point-card i {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
 
 .core-values {
     margin-top: 4rem;
+    /* background: white; */
 }
+
+/* .core-values.grid {
+    padding: 2rem;
+    border-radius: 15px;
+    background: var(--bg-secondary);
+} */
 
 .value-card {
     background: var(--nav-bg);
@@ -70,6 +59,11 @@
     text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+.value-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
 }
 
 .value-card::before {
