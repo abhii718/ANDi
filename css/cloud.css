@@ -1,0 +1,125 @@
+/* Cloud Software Styles */
+.cloud-main {
+    padding: 4rem 2rem;
+    background: var(--bg-primary);
+}
+
+.cloud-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.software-card {
+    background: var(--nav-bg);
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.software-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.software-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.sector {
+    display: block;
+    background: var(--accent-gradient);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    width: max-content;
+    margin: 0.5rem auto;
+}
+
+.software-desc {
+    color: var(--text-primary);
+    opacity: 0.9;
+    line-height: 1.6;
+    min-height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.price-box {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.price-label {
+    display: block;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.price {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cloud-demo-btn {
+    background: var(--accent-gradient);
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    justify-self: center;
+}
+
+.cloud-demo-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .cloud-main {
+        padding: 2rem 1rem;
+    }
+    
+    .software-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .software-card {
+        padding: 1.5rem;
+    }
+    
+    .price {
+        font-size: 1.2rem;
+    }
+}

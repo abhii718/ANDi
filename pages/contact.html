@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle("light-theme");
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo-container">
+          <img class="logo" src="/assests/logo.jpg" alt="Company Logo" />
+        </div>
+
+        <!-- Mobile Controls -->
+        <div class="mobile-controls">
+          <!-- <button class="theme-toggle" onclick="toggleTheme()">🌙</button> -->
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+          <a href="../index.html" class="nav-link ">Home</a>
+          <a href="products.html" class="nav-link">Products & Services</a>
+          <a href="digital-marketing.html" class="nav-link"
+            >Digital Marketing</a
+          >
+          <a href="cloud-software.html" class="nav-link">Cloud Software</a>
+          <a href="clients.html" class="nav-link">Our Clients</a>
+          <a href="partners.html" class="nav-link">Our Partners</a>
+          <a href="contact.html" class="nav-link active">Contact Us</a>
+        </div>
+        <button class="theme-toggle -theme" onclick="toggleTheme()">🌙</button>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Banner Slider -->
+      <div class="banner-container">
+        <div class="banner-slider">
+          <img
+            src="/assests/banner1.png"
+            class="banner active"
+            alt="Banner 1"
+          />
+          <img src="/assests/banner2.jpg" class="banner" alt="Banner 2" />
+        </div>
+        <div class="banner-indicators"></div>
+      </div>
+    </main>
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="contact-subtitle">
+          For any kind of query, contact us with the details below.
+        </p>
+
+        <div class="contact-info">
+          <div class="contact-details">
+            <a href="tel:+917015574125" class="contact-item">
+              <i class="fas fa-phone"></i>
+              +91-7015574125
+            </a>
+            <a
+              href="mailto:andisoftwaresolutions@gmail.com"
+              class="contact-item"
+            >
+              <i class="fas fa-envelope"></i>
+              andisoftwaresolutions@gmail.com
+            </a>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p>ANDi Software Solutions</p>
+                <p>Panipat & Noida</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <h3>Follow Us:</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <p class="copyright">
+          Copyright 2024 © ANDi Software Solutions. All Rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

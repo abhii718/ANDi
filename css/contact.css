@@ -1,0 +1,113 @@
+/* Contact Section Styles */
+.contact-section {
+    padding: 4rem 2rem;
+    background: var(--bg-primary);
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.contact-subtitle {
+    color: var(--text-primary);
+    opacity: 0.9;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.contact-item {
+    background: var(--nav-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.social-links {
+    background: var(--nav-bg);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background: var(--nav-bg);
+}
+
+.social-icon:hover {
+    background: var(--accent-gradient);
+    color: white;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-item {
+        padding: 1rem;
+    }
+}

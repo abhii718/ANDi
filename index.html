@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo-container">
+          <img class="logo" src="/assests/logo.jpg" alt="Company Logo" />
+        </div>
+
+        <!-- Mobile Controls -->
+        <div class="mobile-controls">
+          <!-- <button class="theme-toggle" onclick="toggleTheme()">🌙</button> -->
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="pages/products.html" class="nav-link">Products & Services</a>
+            <a href="pages/digital-marketing.html" class="nav-link">Digital Marketing</a>
+            <a href="pages/cloud-software.html" class="nav-link">Cloud Software</a>
+            <a href="pages/clients.html" class="nav-link">Our Clients</a>
+            <a href="pages/partners.html" class="nav-link">Our Partners</a>
+            <a href="pages/contact.html" class="nav-link">Contact Us</a>
+            
+        </div>
+        <button class="theme-toggle -theme" onclick="toggleTheme()">🌙</button>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Banner Slider -->
+      <div class="banner-container">
+        <div class="banner-slider">
+          <img
+            src="assests/banner1.png"
+            class="banner active"
+            alt="Banner 1"
+          />
+          <img src="assests/banner2.jpg" class="banner" alt="Banner 2" />
+        </div>
+        <div class="banner-indicators"></div>
+      </div>
+    </main>
+    <section class="about-us">
+        <div class="section-header">
+            <h2>About Us</h2>
+            <p class="tagline">Making technology work for your business growth</p>
+        </div>
+    
+        <div class="about-content">
+            <div class="intro">
+                <p class="lead">ANDi software solutions makes technology and information work for business. Use our products to grow, protect, and simplify your business processes. Our tools enable our users to attract, keep & further increase their end customers.</p>
+            </div>
+    
+            <div class="core-values grid">
+                <div class="value-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>We Help You Grow</h3>
+                    <p>We study markets, trends, and emerging practices to create products that help you expand globally.</p>
+                </div>
+    
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Client-Focused Approach</h3>
+                    <p>United by strong values, we invest in exceptional talent to deliver best-in-class products.</p>
+                </div>
+    
+                <div class="value-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Our Commitment</h3>
+                    <p>We don't rest until our clients are satisfied and delighted with our solutions.</p>
+                </div>
+            
+    
+            
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-gem"></i></div>
+                    <h4>Honesty</h4>
+                    <p>Building long-term relationships through transparency and integrity</p>
+                </div>
+    
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-code"></i></div>
+                    <h4>Technical Excellence</h4>
+                    <p>Cutting-edge solutions powered by industry-leading expertise</p>
+                </div>
+    
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Originality</h4>
+                    <p>Unique solutions crafted from original thinking and innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Footer -->
+ <footer class="main-footer">
+    <div class="footer-container">
+      <p class="copyright">
+        Copyright 2024 © ANDi Software Solutions. All Rights reserved
+      </p>
+    </div>
+  </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
